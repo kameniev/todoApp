@@ -65,7 +65,7 @@ function searchTodo(title){
 
     <div className="wrapper">
     
-   <h1 className="wow bounceInLeft">React tutorial</h1>
+   <h1 className="wow bounceInLeft">Todo application</h1>
    <AddTodo onCreate={addTodo}></AddTodo>
    <SearchTodo onSearch={searchTodo}></SearchTodo>
    {todos.length ? <TodoList todos={todos} onToggle={toggleTodo} searchFlag={searchFlag}></TodoList> : <p>No todos!</p>}
